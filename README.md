@@ -1,6 +1,6 @@
 # PojavOptimize
 
-A collection of mods to improve the performance and user experience of PojavLauncher. This repository was originally assembled by PojavLauncher Discord moderator Chuck Norris as a response to low performance on certain devices. 
+A collection of mods to improve the performance and user experience of PojavLauncher. This repository was originally assembled by Discord moderator Chuck_Norris_ as a response to low performance on certain devices. 
 
 The mods in this pack include:
 
@@ -19,6 +19,7 @@ The mods in this pack include:
 | Cullleaves |  |
 | Custom Fog |  |
 | Fabric API |  |
+| Fabric Language</br>(Kotlin)| |
 | Fast Chest |  |
 | Ferritecore |  |
 | Hydrogen |  |
