@@ -9,6 +9,9 @@ jobs:
     name: Check for new mod versions
     runs-on: ubuntu-20.04
     steps:
+    - uses: actions/setup-java@v1
+      with:
+          java-version: '1.8.0.232'
     - uses: actions/checkout@v2
     - name: Running mod updater
       run: ./modupdater.sh
