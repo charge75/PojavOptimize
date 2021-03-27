@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/setup-java@v1
       with:
-          java-version: '1.8.0.232'
+          java-version: '11.0.2'
     - uses: actions/checkout@v2
     - name: Running mod updater
       run: ./modupdater.sh
