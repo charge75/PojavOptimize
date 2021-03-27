@@ -11,4 +11,4 @@ chmod +x gradlew
 ./gradlew build
 
 # Move the target jars out of the build directory
-mv build/libs/starlight-fabric-*.jar ../../starlight.jar
+mv build/libs/starlight-fabric-*.jar ../..
