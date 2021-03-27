@@ -6,10 +6,7 @@ The mods in this pack include:
 
 | Mod  | Use |
 | ------------- | ------------- |
-| CraftPresence |   |
-| InventoryHUD |   |
 | SmoothScrolling</br>Everywhere |  |
-| XaerosWorldMap |  |
 | AntiGhost |  |
 | Architectury |  |
 | BetterBeds |  |
