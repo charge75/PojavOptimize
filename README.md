@@ -18,7 +18,7 @@ The mods in this pack include:
 | Fabric API | Hooks for fabric mods to latch onto | https://www.curseforge.com/minecraft/mc-mods/fabric-api |
 | Fabric Language (Kotlin)| adds the Kotlin programming language for Fabric mods to use.(mod dependency) | https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin |
 | Fast Chest | Makes chests into a single, solid block to reduce lag | https://www.curseforge.com/minecraft/mc-mods/fastchest |
-| Ferritecore |  | https://www.curseforge.com/minecraft/mc-mods/ferritecore |
+| Ferritecore | Reduces RAM usage | https://www.curseforge.com/minecraft/mc-mods/ferritecore |
 | Hydrogen | Experimental hacks to reduce minecraft memory | https://github.com/CaffeineMC/hydrogen-fabric |
 | Indium | Adaptation of Indigo (Reference implementation of the Fabric Rendering API) Requires Sodium | https://github.com/comp500/Indium |
 | Jumploader | "Jumploader is a mod that allows the use of Fabric mods in CurseForge" | https://www.curseforge.com/minecraft/mc-mods/jumploader |
