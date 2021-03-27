@@ -15,4 +15,5 @@ git clone https://github.com/Spottedleaf/Starlight.git
 cd Starlight
 
 # Build!
+chmod +x gradlew
 ./gradlew build
