@@ -1,6 +1,6 @@
 # PojavOptimize
 
-A collection of mods to improve the performance and user experience of PojavLauncher. This repository was originally assembled by Discord moderator Chuck_Norris_ as a response to low performance on certain devices, as well as goodies in other areas. This modpack requires **Fabric 1.16.5** to be installed on the client machine!
+A collection of mods to improve the performance and user experience of PojavLauncher. This repository was originally assembled by Discord moderator Chuck_Norris_ as a response to low performance on certain devices, as well as goodies in other areas. This modpack requires **Fabric 1.16.5** to be installed on the client machine! Based off fabulously optimized found here: https://www.curseforge.com/minecraft/modpacks/fabulously-optimized with tweaks and additions made by Chuck_Norris_, All Configs made by robotkoer, creator of fabulously optimized Implmented in this modpack to Simplfy installation.
 
 The mods in this pack include:
 
