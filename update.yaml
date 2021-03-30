@@ -1,0 +1,34 @@
+name: Updater!
+on:
+  push:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  linux:
+    name: Check for new mod versions
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/setup-java@v1
+      with:
+          java-version: '11.0.2'
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Make temporary directory for cloned repositories
+      run: mkdir git-temp
+    - name: Checkout tools repo
+      uses: actions/checkout@v2
+      with:
+          repository: Spottedleaf/Starlight
+          path: git-temp/Starlight
+
+    - name: Running mod updater
+      run: ./modupdater.sh
+
+    - name: Pushes results to GitHub
+      uses: EndBug/add-and-commit@v7.0.0
+      with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'Ran a quick test'
