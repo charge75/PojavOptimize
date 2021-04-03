@@ -22,4 +22,15 @@ mv build/libs/$(find build/libs -name '*.jar' -a ! -name '*-sources-dev.jar' ! -
 # Back to git-temp
 cd ..
 
-# 
+# AntiGhost - gbl
+## Clone!
+git clone https://github.com/gbl/AntiGhost.git
+
+## Build!
+cd AntiGhost
+git checkout fabric_1_16
+git submodule init
+git submodule update
+/opt/gradle-4.10.2/bin/gradle build
+
+
