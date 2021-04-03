@@ -5,6 +5,7 @@
 
 # STILL IN TEST MODE
 mkdir git-temp
+cd git-temp
 
 # Starlight - SpottedLeaf
 ## Clone!
@@ -15,5 +16,10 @@ cd Starlight
 chmod +x gradlew
 ./gradlew build
 
-# Move the target jars out of the build directory
-mv build/libs/starlight-fabric-*.jar ../..
+## Move the target jars out of the build directory
+mv build/libs/$(find build/libs -name '*.jar' -a ! -name '*-sources-dev.jar' ! -name '*-dev.jar' ! -name '*-sources.jar' | cut -b 12-68) ..
+
+# Back to git-temp
+cd ..
+
+# 
