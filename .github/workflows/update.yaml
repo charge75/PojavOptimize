@@ -15,14 +15,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Make temporary directory for cloned repositories
-      run: mkdir git-temp
-    - name: Checkout tools repo
-      uses: actions/checkout@v2
-      with:
-          repository: Spottedleaf/Starlight
-          path: git-temp/Starlight
-
     - name: Running mod updater
       run: ./modupdater.sh
 
