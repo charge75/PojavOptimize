@@ -7,30 +7,34 @@
 mkdir git-temp
 cd git-temp
 
-# Starlight - SpottedLeaf
-## Clone!
-git clone https://github.com/SpottedLeaf/Starlight.git
-
-## Build!
-cd Starlight
-chmod +x gradlew
-./gradlew build
-
-## Move the target jars out of the build directory
-mv build/libs/$(find build/libs -name '*.jar' -a ! -name '*-sources-dev.jar' ! -name '*-dev.jar' ! -name '*-sources.jar' | cut -b 12-68) ..
-
-# Back to git-temp
-cd ..
-
-# AntiGhost - gbl
-## Clone!
+# Oh, boy. 
+git clone https://github.com/shedaniel/SmoothScrollingEverywhere.git
 git clone https://github.com/gbl/AntiGhost.git
-
-## Build!
-cd AntiGhost
-git checkout fabric_1_16
-git submodule init
-git submodule update
-/opt/gradle-4.10.2/bin/gradle build
-
-
+git clone https://github.com/architectury/architectury-api.git
+git clone https://github.com/TheIllusiveC4/Bedspreads.git
+git clone https://github.com/CaelTheColher/Capes.git
+git clone https://github.com/shedaniel/cloth-config.git
+git clone https://github.com/kvverti/colormatic.git
+git clone https://github.com/TeamMidnightDust/CullLeaves.git
+git clone https://github.com/Setadokalo/custom-fog.git
+git clone https://github.com/FabricMC/fabric.git
+git clone https://github.com/FabricMC/fabric-language-kotlin.git
+git clone https://github.com/FakeDomi/FastChest.git
+git clone https://github.com/malte0811/FerriteCore.git
+git clone https://github.com/CaffeineMC/hydrogen-fabric.git
+git clone https://github.com/comp500/Indium.git
+git clone https://github.com/comp500/Jumploader.git
+git clone https://github.com/astei/krypton.git
+git clone https://github.com/LambdAurora/LambDynamicLights.git
+git clone https://github.com/astei/lazydfu.git
+git clone https://github.com/CaffeineMC/lithium-fabric.git
+git clone https://github.com/maruohon/malilib.git
+git clone https://github.com/TerraformersMC/ModMenu.git
+git clone https://github.com/UltimateBoomer/mc-no-fade.git
+git clone https://github.com/natanfudge/Not-Enough-Crashes.git
+git clone https://github.com/joaoh1/OkZoomer.git
+git clone https://github.com/haykam821/Raised-Clouds.git
+git clone https://github.com/shedaniel/slight-gui-modifications.git
+git clone https://github.com/UltimateBoomer/mc-smoothboot.git
+git clone https://github.com/CaffeineMC/sodium-fabric.git
+git clone https://github.com/Spottedleaf/Starlight.git
