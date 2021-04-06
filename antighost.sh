@@ -1,6 +1,6 @@
 #! /bin/bash
 
-git clone git@github.com:gbl/AntiGhost.git
+git clone https://github.com/gbl/AntiGhost.git
 cd AntiGhost
 git submodule init
 git submodule update
