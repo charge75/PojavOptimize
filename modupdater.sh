@@ -9,7 +9,7 @@ cd git-temp
 
 # Oh, boy. 
 git clone https://github.com/shedaniel/SmoothScrollingEverywhere.git
-# git clone https://github.com/gbl/AntiGhost.git
+git clone https://github.com/gbl/AntiGhost.git
 git clone https://github.com/architectury/architectury-api.git
 git clone https://github.com/TheIllusiveC4/Bedspreads.git
 git clone https://github.com/CaelTheColher/Capes.git
@@ -71,6 +71,7 @@ sed -i "120s/.*/ /" build.gradle
 sed -i "121s/.*/ /" build.gradle
 sed -i "122s/.*/ /" build.gradle
 gradle build
+cd ..
 
 # Architectury
 cd architectury-api
@@ -237,3 +238,7 @@ cd Starlight
 chmod +x gradlew
 ./gradlew build
 cd ..
+
+cd ..
+mkdir holdemformeplease
+mv $(find git-temp/*/build/libs -name '*.jar' -a ! -name '*-sources-dev.jar' ! -name '*-sources.jar' ! -name '*-dev.jar' | cut -b 1-100) holdemformeplease
