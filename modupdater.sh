@@ -9,7 +9,7 @@ cd git-temp
 
 # Oh, boy. 
 git clone https://github.com/shedaniel/SmoothScrollingEverywhere.git
-git clone https://github.com/gbl/AntiGhost.git
+# git clone https://github.com/gbl/AntiGhost.git
 git clone https://github.com/architectury/architectury-api.git
 git clone https://github.com/TheIllusiveC4/Bedspreads.git
 git clone https://github.com/CaelTheColher/Capes.git
@@ -38,3 +38,175 @@ git clone https://github.com/shedaniel/slight-gui-modifications.git
 git clone https://github.com/UltimateBoomer/mc-smoothboot.git
 git clone https://github.com/CaffeineMC/sodium-fabric.git
 git clone https://github.com/Spottedleaf/Starlight.git
+
+# SmoothScrollingEverywhere
+cd SmoothScrollingEverywhere
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# Architectury
+cd architectury-api
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# BedSpreads
+cd Bedspreads
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# Capes
+cd Capes
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# cloth-config
+cd cloth-config
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# colormatic
+cd colormatic
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# CullLeaves
+cd CullLeaves
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# custom-fog
+cd custom-fog
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# fabric
+cd fabric
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# fabric-language-kotlin
+cd fabric-language-kotlin
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# FastChest
+cd FastChest
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# FerriteCore
+cd FerriteCore
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# hydrogen-fabric
+cd hydrogen-fabric
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# Indium
+cd Indium
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# Jumploader
+cd Jumploader
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# krypton
+cd krypton
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# LambDynamicLights
+cd LambDynamicLights
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# lazydfu
+cd lazydfu
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# lithium-fabric
+cd lithium-fabric
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# malilib
+cd malilib
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# ModMenu
+cd ModMenu
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# mc-no-fade
+cd mc-no-fade
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# Not-Enough-Crashes
+cd Not-Enough-Crashes
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# OkZoomer
+cd OkZoomer
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# Raised-Clouds
+cd Raised-Clouds
+gradle build
+
+# slight-gui-modifications
+cd slight-gui-modifications
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# mc-smoothboot
+cd mc-smoothboot
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# sodium-fabric
+cd sodium-fabric
+chmod +x gradlew
+./gradlew build
+cd ..
+
+# Starlight
+cd Starlight
+chmod +x gradlew
+./gradlew build
+cd ..
