@@ -1,0 +1,26 @@
+name: Updater!
+on:
+  push:
+  schedule:
+    - cron: '0 12 * * 0'
+
+jobs:
+  linux:
+    name: Check for new mod versions
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/setup-java@v1
+      with:
+          java-version: '11.0.2'
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Running mod updater
+      run: ./antighost.sh
+
+    - name: Pushes results to GitHub
+      uses: EndBug/add-and-commit@v7.0.0
+      with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'Ran a quick test'
