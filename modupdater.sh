@@ -45,6 +45,33 @@ chmod +x gradlew
 ./gradlew build
 cd ..
 
+# AntiGhost
+cd AntiGhost
+git submodule init
+git submodule update
+sed -i "102s/.*/ /" build.gradle
+sed -i "103s/.*/ /" build.gradle
+sed -i "104s/.*/ /" build.gradle
+sed -i "105s/.*/ /" build.gradle
+sed -i "106s/.*/ /" build.gradle
+sed -i "107s/.*/ /" build.gradle
+sed -i "108s/.*/ /" build.gradle
+sed -i "109s/.*/ /" build.gradle
+sed -i "110s/.*/ /" build.gradle
+sed -i "111s/.*/ /" build.gradle
+sed -i "112s/.*/ /" build.gradle
+sed -i "113s/.*/ /" build.gradle
+sed -i "114s/.*/ /" build.gradle
+sed -i "115s/.*/ /" build.gradle
+sed -i "116s/.*/ /" build.gradle
+sed -i "117s/.*/ /" build.gradle
+sed -i "118s/.*/ /" build.gradle
+sed -i "119s/.*/ /" build.gradle
+sed -i "120s/.*/ /" build.gradle
+sed -i "121s/.*/ /" build.gradle
+sed -i "122s/.*/ /" build.gradle
+gradle build
+
 # Architectury
 cd architectury-api
 chmod +x gradlew
