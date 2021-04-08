@@ -214,6 +214,7 @@ cd ..
 # Raised-Clouds
 cd Raised-Clouds
 gradle build
+cd ..
 
 # slight-gui-modifications
 cd slight-gui-modifications
@@ -241,4 +242,4 @@ cd ..
 
 cd ..
 mkdir holdemformeplease
-mv $(find git-temp/*/build/libs -name '*.jar' -a ! -name '*-sources-dev.jar' ! -name '*-sources.jar' ! -name '*-dev.jar' | cut -b 1-100) holdemformeplease
+mv $(find git-temp/*/build/libs -name '*.jar' -a ! -name '*-sources-dev.jar' ! -name '*-sources.jar' ! -name '*-dev.jar' ! -name '*-api.jar' | cut -b 1-100) holdemformeplease
