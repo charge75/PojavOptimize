@@ -46,10 +46,10 @@ chmod +x gradlew
 cd ..
 
 # cloth-config
-#cd cloth-config
-#chmod +x gradlew
-#./gradlew build
-#cd ..
+cd cloth-config
+chmod +x gradlew
+./gradlew build
+cd ..
 
 # FastChest
 #cd FastChest
