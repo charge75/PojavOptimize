@@ -42,26 +42,27 @@ git clone https://github.com/shedaniel/slight-gui-modifications.git
 # Architectury
 cd architectury-api
 chmod +x gradlew
+sed -i "4s/https/http/" settings.gradle
 ./gradlew build
 cd ..
 
 # cloth-config
-cd cloth-config
-chmod +x gradlew
-./gradlew build
-cd ..
+#cd cloth-config
+#chmod +x gradlew
+#./gradlew build
+#cd ..
 
 # FastChest
-cd FastChest
-chmod +x gradlew
-./gradlew build
-cd ..
+#cd FastChest
+#chmod +x gradlew
+#./gradlew build
+#cd ..
 
 # FerriteCore
-cd FerriteCore
-chmod +x gradlew
-./gradlew build
-cd ..
+#cd FerriteCore
+#chmod +x gradlew
+#./gradlew build
+#cd ..
 
 # krypton
 cd krypton
@@ -70,22 +71,22 @@ chmod +x gradlew
 cd ..
 
 # malilib
-cd malilib
-chmod +x gradlew
-./gradlew build
-cd ..
+#cd malilib
+#chmod +x gradlew
+#./gradlew build
+#cd ..
 
 # ModMenu
-cd ModMenu
-chmod +x gradlew
-./gradlew build
-cd ..
+#cd ModMenu
+#chmod +x gradlew
+#./gradlew build
+#cd ..
 
 # slight-gui-modifications
-cd slight-gui-modifications
-chmod +x gradlew
-./gradlew build
-cd ..
+#cd slight-gui-modifications
+#chmod +x gradlew
+#./gradlew build
+#cd ..
 
 cd ..
 mkdir holdemformeplease
