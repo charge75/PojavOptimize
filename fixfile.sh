@@ -42,8 +42,8 @@ git clone https://github.com/shedaniel/slight-gui-modifications.git
 # Architectury
 cd architectury-api
 chmod +x gradlew
-sed -i "4s/https/http/" settings.gradle
-./gradlew build
+#sed -i "4s/https/http/" settings.gradle
+./gradlew build --debug
 cd ..
 
 # cloth-config
@@ -65,10 +65,10 @@ cd ..
 #cd ..
 
 # krypton
-cd krypton
-chmod +x gradlew
-./gradlew build
-cd ..
+#cd krypton
+#chmod +x gradlew
+#./gradlew build
+#cd ..
 
 # malilib
 #cd malilib
