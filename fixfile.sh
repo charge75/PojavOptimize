@@ -42,6 +42,7 @@ git clone https://github.com/shedaniel/slight-gui-modifications.git
 # Architectury
 cd architectury-api
 chmod +x gradlew
+sed -i "4s/ }/, allowInsecureProtocol = true }/" settings.gradle
 ./gradlew build
 cd ..
 
