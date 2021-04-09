@@ -42,8 +42,7 @@ git clone https://github.com/shedaniel/slight-gui-modifications.git
 # Architectury
 cd architectury-api
 chmod +x gradlew
-#sed -i "4s/https/http/" settings.gradle
-./gradlew build --debug
+./gradlew build
 cd ..
 
 # cloth-config
