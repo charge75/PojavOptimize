@@ -39,6 +39,4 @@ The mods in this pack include:
 | Sodium | Changes minecrafts rendering engine to improve performance | https://www.curseforge.com/minecraft/mc-mods/sodium |
 | Starlight | Fabric mod for completely rewriting the vanilla light engine. (replaces phosphor as you get more FPS | https://github.com/Spottedleaf/Starlight |
 
-**NOTE:** As of right now, the auto updater isn't yet ready. Our plans to make a GitHub Action that runs every hour were derailed when we learned that Curseforge does not have an easily accessible API or ability to use `wget` on their downloads page. Our plan is to gather the source code for these mods and hopefully run a build every time there's a new version, but we have to work out how exactly that's going to work.
-
-Based off fabulously optimized found here: https://www.curseforge.com/minecraft/modpacks/fabulously-optimized with tweaks and additions made by Chuck_Norris_, All Configs made by robotkoer, creator of fabulously optimized Implmented in this modpack to Simplfy installation.
+Based off fabulously optimized found here: https://www.curseforge.com/minecraft/modpacks/fabulously-optimized with tweaks and additions made by Chuck_Norris_, All Configs made by robotkoer, creator of fabulously optimized, implemented in this modpack to Simplfy installation.
